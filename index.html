@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> نيو كواليتي كونسبت</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <!-- Bootstrap 5 RTL CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <!-- Google Fonts for Arabic -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap"
+        media="print" onload="this.onload=null;this.media='all';">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap">
+    </noscript>
+
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- الشعار -->
+            <a class="navbar-brand ps-5" href="#">
+                NQC
+            </a>
+
+            <!-- الروابط -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">الباقات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">الخدمات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main class="main-content pt-2">
+        <div class="container">
+            <!-- User Information Section -->
+            <section class="user-info-section py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="card rounded-3" style="border-top: 5px solid #5e0fcf;">
+                            <div class="card-body px-2 py-3">
+                                <div class="text-center mb-4">
+                                    <img src="images/logo.jpg" style="width: 300px; height: 250px;" alt="مكين 66"
+                                        class="img-fluid">
+                                </div>
+                                <form id="userForm">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="fullName" class="form-label label-user-form">إسم
+                                                المطور
+                                                العقاري</label>
+                                            <input type="text" value="أساس مكين للتطوير والاستثمار العقاري"
+                                                class="form-control form-control-lg rounded-3" id="fullName"
+                                                style="border: 1px solid #5e0fcf; font-size: 16px;" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="nationalId" class="form-label label-user-form">رقم
+                                                الهوية الوطنية /
+                                                الإقامة</label>
+                                            <input type="text" value="123456789"
+                                                class="form-control form-control-lg rounded-3" id="nationalId"
+                                                style="border: 1px solid #5e0fcf; font-size: 16px;" required>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <p class="text-muted">يمكنك اختيار إحدى الباقتين التاليتين ثم الإطلاع على العقد
+                                            مباشرة أو إضافة الايميل الخاص بك وسوف يتم ارسال نسخه الى بريدك الالكتروني
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Package Selection Section -->
+            <section class="packages-section py-2">
+                <div class="row">
+                    <!-- Platinum Package -->
+                    <div class="col-lg-6 mb-4">
+                        <div
+                            class="package-card card h-100 shadow-lg border-0 rounded-4 position-relative overflow-hidden">
+                            <div class="package-header bg-gradient-primary text-white p-4 text-center">
+                                <h3 class="fw-bold mb-2">باقة البلاتينيوم</h3>
+                                <div class="price-tag">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <span class="price-amount display-4 fw-bold me-2">80,600</span>
+                                        <svg viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="styles__icon--f9b3f"
+                                            style="width: 50px; height: 50px; color: #ffffff;">
+                                            <path
+                                                d="M10.21 7.76a3.815 3.815 0 0 1-.321 1.194l-3.554.75v-2.25l-1.107.234v1.249c0 .114-.035.22-.095.307l-.576.849a.998.998 0 0 1-.618.41L.8 11.166c.043-.421.154-.823.321-1.193l3-.634V7.922l-2.799.592c.043-.422.154-.823.322-1.193l2.477-.524V2.422A3.899 3.899 0 0 1 5.228 1.5v5.064l1.107-.234V2.973a3.9 3.9 0 0 1 1.107-.924v4.046l2.768-.584a3.81 3.81 0 0 1-.321 1.193l-2.447.517v1.125l2.768-.585ZM6.335 11.954c.043-.42.154-.822.322-1.193l3.553-.75a3.814 3.814 0 0 1-.321 1.192l-3.554.751Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+
+                                    </div>
+                                    <div class="price-subtitle">للوحدة السكنية</div>
+                                </div>
+                            </div>
+                            <div class="card-body p-4">
+                                <div class="features-list">
+                                    <div class="feature-item mb-3">
+
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-door-open color-text-primary  me-2"></i>
+                                                <span class="fw-bold text-black">أبواب WPC</span>
+                                            </div>
+                                            <span>سماكة 4.5 سم، قفل مغناطيسي</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-window-maximize color-text-primary  me-2"></i>
+                                                <span class="fw-bold text-black">النوافذ</span>
+                                            </div>
+                                            <span>ألمنيوم سلايدنج قطاع 1.8 مم، دبل جلاس 5+12+5</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-home color-text-primary  me-2"></i>
+                                                <span class="fw-bold text-black">البيت الذكي</span>
+                                            </div>
+                                            <span>تحكم ذكي بالإضاءة</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-shield-alt color-text-primary  me-2"></i>
+                                                <span class="fw-bold text-black">الضمان</span>
+                                            </div>
+                                            <span>سنتين على الأنظمة الذكية، 15 سنة ضمان على الأبواب والنوافذ</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <button class="btn btn-primary btn-lg rounded-3 px-5 details-btn"
+                                        data-package="platinum">
+                                        <i class="fas fa-info-circle me-2"></i>
+                                        التفاصيل
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Premium Package -->
+                    <div class="col-lg-6 mb-4">
+                        <div
+                            class="package-card card h-100 shadow-lg border-0 rounded-4 position-relative overflow-hidden">
+                            <div class="package-header bg-gradient-gold text-white p-4 text-center">
+                                <div class="premium-badge">
+                                    <i class="fas fa-crown"></i>
+                                    <span>الأفضل</span>
+                                </div>
+                                <h3 class="fw-bold mb-2">باقة البريميوم</h3>
+                                <div class="price-tag">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <span class="price-amount display-4 fw-bold me-2">105,350</span>
+                                        <svg viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="styles__icon--f9b3f"
+                                            style="width: 50px; height: 50px; color: #ffffff;">
+                                            <path
+                                                d="M10.21 7.76a3.815 3.815 0 0 1-.321 1.194l-3.554.75v-2.25l-1.107.234v1.249c0 .114-.035.22-.095.307l-.576.849a.998.998 0 0 1-.618.41L.8 11.166c.043-.421.154-.823.321-1.193l3-.634V7.922l-2.799.592c.043-.422.154-.823.322-1.193l2.477-.524V2.422A3.899 3.899 0 0 1 5.228 1.5v5.064l1.107-.234V2.973a3.9 3.9 0 0 1 1.107-.924v4.046l2.768-.584a3.81 3.81 0 0 1-.321 1.193l-2.447.517v1.125l2.768-.585ZM6.335 11.954c.043-.42.154-.822.322-1.193l3.553-.75a3.814 3.814 0 0 1-.321 1.192l-3.554.751Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+
+                                    </div>
+                                    <div class="price-subtitle">للوحدة السكنية</div>
+                                </div>
+                            </div>
+                            <div class="card-body p-4">
+                                <div class="features-list">
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-door-open color-text-gold  me-2"></i>
+                                                <span class="fw-bold text-black">أبواب WPC</span>
+                                            </div>
+                                            <span>سماكة 6 سم، حشوة عزل، قفل مغناطيسي</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-window-maximize color-text-gold  me-2"></i>
+                                                <span class="fw-bold text-black">النوافذ</span>
+                                            </div>
+                                            <span>ألمنيوم قطاع 2.0 مم، دبل جلاس 6+12+6، thermal break</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-home color-text-gold  me-2"></i>
+                                                <span class="fw-bold text-black">البيت الذكي</span>
+                                            </div>
+                                            <span>تحكم ذكي شامل (إضاءة، تكييف، ستائر)</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item mb-3">
+                                        <div>
+                                            <div class="text-start">
+                                                <i class="fas fa-shield-alt color-text-gold  me-2"></i>
+                                                <span class="fw-bold text-black">الضمان</span>
+                                            </div>
+                                            <span>3 سنوات على الأنظمة الذكية، 25 سنة على النوافذ</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <button class="btn btn-warning btn-lg rounded-3 px-5 details-btn"
+                                        data-package="premium">
+                                        <i class="fas fa-info-circle me-2"></i>
+                                        التفاصيل
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Agreement Section -->
+            <section class="agreement-section py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow-lg border-0 rounded-4">
+                            <div class="card-body px-3 py-5">
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" style="border-color: #6633cd;" type="checkbox"
+                                        id="agreeTerms" required>
+                                    <label class="form-check-label" for="agreeTerms">
+                                        الموافقة على الشروط والاحكام اضغة على المربع لارسال نسخة العقد الى ايميلك
+                                    </label>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-lg rounded-3 px-5 send-contract-btn"
+                                        style="background-color: #6633cd; color: #ffffff;" id="submitForm">
+                                        <i class="fas fa-file-contract text-white me-2"></i>
+                                        <span> إرسال طلب العقد</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer-section  text-white py-4" style="background-color:#6633cd ;">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 نيو كواليتي كونسبت - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsModalLabel">تفاصيل الباقة</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4" id="modalContent">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- مودال الصورة -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">صورة المنتج</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center image-modal">
+                    <img id="modalImage" src="" alt="صورة المنتج">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    <script>
+        const packagesData = {
+            premium: {
+                title: "باقة البريميوم",
+                price: "105,350",
+                doors: {
+                    title: "مواصفات الأبواب WPC",
+                    thickness: "6.0 سم",
+                    type: "Assembl",
+                    features: ["قفل مغناطيسي", "مسكات أبواب حصرية", "عزل حراري"],
+                    images: [
+                        "images/2.png",
+                        "images/2.png",
+                        "images/2.png"
+                    ]
+                },
+                windows: {
+                    title: "مواصفات النوافذ الألمنيوم",
+                    profile: "2.0 Aluminum-6063",
+                    thickness: "2.0",
+                    specs: "6+12+6",
+                    features: ["عازل حراري مدعوم مع LOW GLASS", "أفضل أنظمة العزل الحراري والصوتي", "عازل للرطوبة وتسرب الهواء", "طلاء حراري Gray powder coated", "مقابض ومفصلات ألمانية درجة أولى"],
+                    images: [
+                        "images/2.png",
+                        "images/2.png",
+                        "images/2.png"
+                    ]
+                },
+                smartHome: {
+                    title: "مواصفات البيت الذكي",
+                    features: ["تحكم ذكي كامل (الإضاءة - الستائر - التكييف)", "التحكم من خلال الجوال وعن طريق (ألكسا - أبل هوم)", "التحكم بفضل القاب الرئيسي", "الأنظمة المتاحة: Zigbee [Wireless] Home Automation System", "Smart Wifi System"],
+                    warranty: "3 سنوات على الأنظمة والمنتجات",
+                    images: [
+                        "images/2.png",
+                        "images/2.png",
+                        "images/2.png"
+                    ]
+                }
+            },
+            platinum: {
+                title: "باقة البلاتينيوم",
+                price: "80,600",
+                doors: {
+                    title: "مواصفات الأبواب WPC",
+                    thickness: "4.5 سم",
+                    type: "طلاء",
+                    features: ["قفل مغناطيسي"],
+                    images: [
+                        "images/2.png",
+                        "images/2.png",
+                        "images/2.png"
+                    ]
+                },
+                windows: {
+                    title: "مواصفات النوافذ الألمنيوم",
+                    profile: "T5 Aluminum-6063",
+                    thickness: "1.8",
+                    specs: "5+12+5",
+                    features: ["عازل حراري مدعوم مع E-LOW GLASS", "طلاء حراري Gray powder coated", "مقابض ومفصلات ألمانية درجة أولى"],
+                    images: [
+                        "images/2.png",
+                        "images/2.png",
+                        "images/2.png"
+                    ]
+                },
+                smartHome: {
+                    title: "مواصفات البيت الذكي",
+                    features: ["تحكم ذكي بالإضاءة والقاب الرئيسي", "التحكم من خلال الجوال", "الاتصال بالإنترنت", "التحكم عن بعد"],
+                    warranty: "سنتين على الأنظمة والمنتجات",
+                    images: [
+                        "images/2.png",
+                        "images/2.png",
+                        "images/2.png"
+                    ]
+                }
+            }
+        };
+
+        document.querySelectorAll('.details-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                const packageType = this.getAttribute('data-package');
+                const package = packagesData[packageType];
+
+                let modalContent = `
+                    <div class="text-center mb-4">
+                        <h3 class="color-text-primary">${package.title}</h3>
+                       <div>
+                         <h4 class="me-2">${package.price} <svg viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="styles__icon--f9b3f"
+                                            style="width: 30px; height: 30px; color: #000000;">
+                                            <path
+                                                d="M10.21 7.76a3.815 3.815 0 0 1-.321 1.194l-3.554.75v-2.25l-1.107.234v1.249c0 .114-.035.22-.095.307l-.576.849a.998.998 0 0 1-.618.41L.8 11.166c.043-.421.154-.823.321-1.193l3-.634V7.922l-2.799.592c.043-.422.154-.823.322-1.193l2.477-.524V2.422A3.899 3.899 0 0 1 5.228 1.5v5.064l1.107-.234V2.973a3.9 3.9 0 0 1 1.107-.924v4.046l2.768-.584a3.81 3.81 0 0 1-.321 1.193l-2.447.517v1.125l2.768-.585ZM6.335 11.954c.043-.42.154-.822.322-1.193l3.553-.75a3.814 3.814 0 0 1-.321 1.192l-3.554.751Z"
+                                                fill="currentColor"></path>
+                                        </svg></h4>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <div>
+                            <i class="fas fa-door-open me-2 color-text-primary"></i>
+                            
+<h4 class="detail-title">${package.doors.title}</h4>
+                            </div>
+                        
+                        <div class="spec-item"><i class="fas fa-ruler"></i> سماكة الباب: ${package.doors.thickness}</div>
+                        <div class="spec-item"><i class="fas fa-door-open"></i> نوع الباب: ${package.doors.type}</div>
+                        ${package.doors.features.map(feature => `<div class="spec-item"><i class="fa-solid fa-circle-check"></i> ${feature}</div>`).join('')}
+                        
+                        
+                        <div class="product-gallery">
+                            ${package.doors.images.map((img, index) => `
+                                <div class="product-image" onclick="openImageModal('${img}')">
+                                    <img src="${img}" alt="صورة الباب ${index + 1}">
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                                                <div>
+                            <i class="fas fa-window-maximize me-2 color-text-primary"></i>
+<h4 class="detail-title">${package.windows.title}</h4>
+                            </div>
+                        <div class="spec-item"><i class="fas fa-cube"></i> نوع القطاع: ${package.windows.profile}</div>
+                        <div class="spec-item"><i class="fas fa-ruler"></i> سماكة القطاع: ${package.windows.thickness}</div>
+                        <div class="spec-item"><i class="fas fa-layer-group"></i> مواصفات الزجاج: ${package.windows.specs}</div>
+                        ${package.windows.features.map(feature => `<div class="spec-item"><i class="fa-solid fa-circle-check"></i> ${feature}</div>`).join('')}
+                        
+                    
+                        <div class="product-gallery">
+                            ${package.windows.images.map((img, index) => `
+                                <div class="product-image" onclick="openImageModal('${img}')">
+                                    <img src="${img}" alt="صورة النافذة ${index + 1}">
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                                                                        <div>
+                            <i class="fas fa-home me-2 color-text-primary"></i>
+<h4 class="detail-title">${package.smartHome.title}</h4>
+                            </div>
+                        ${package.smartHome.features.map(feature => `<div class="spec-item"><i class="fa-solid fa-circle-check"></i> ${feature}</div>`).join('')}
+                        <div class="spec-item mt-3"><i class="fas fa-shield-alt"></i> الضمان: ${package.smartHome.warranty}</div>
+                        
+                    
+                        <div class="product-gallery">
+                            ${package.smartHome.images.map((img, index) => `
+                                <div class="product-image" onclick="openImageModal('${img}')">
+                                    <img src="${img}" alt="صورة النظام الذكي ${index + 1}">
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+
+                document.getElementById('modalContent').innerHTML = modalContent;
+
+                const modal = new bootstrap.Modal(document.getElementById('detailsModal'));
+                modal.show();
+            });
+        });
+
+        // فتح مودال الصورة
+        function openImageModal(imageSrc) {
+            document.getElementById('modalImage').src = imageSrc;
+            const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+            imageModal.show();
+        }
+
+        // معالجة نموذج الإيميل
+        document.getElementById('emailForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            const messageDiv = document.getElementById('formMessage');
+
+            // محاكاة إرسال الطلب (في تطبيق حقيقي، سيكون هنا طلب AJAX)
+            setTimeout(() => {
+                messageDiv.innerHTML = `<div class="alert alert-success">تم إرسال نسخة من العقد إلى ${email} بنجاح!</div>`;
+                document.getElementById('emailInput').value = '';
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
